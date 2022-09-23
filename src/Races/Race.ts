@@ -1,7 +1,7 @@
 // 1 - Crie a classe Race ok
 abstract class Race {
   private _name: string;
-  private _dexterity: number;;
+  private _dexterity: number;
 
   // 01. crindo o constructor
   constructor(name: string, dexterity: number) {
@@ -9,14 +9,12 @@ abstract class Race {
     this._dexterity = dexterity;
   }
 
-  // Dica: use a convenção de atributos privados para criar os atributos com _ e os getters para expor os atributos sem o _. (não passa nos testes)
   public get name(): string {
-    return this._name;
+    return this.name;
   }
-  // Dica: use a convenção de atributos privados para criar os atributos com _ e os getters para expor os atributos sem o _. (não passa nos testes)
 
   public get dexterity(): number {
-    return this._dexterity;
+    return this.dexterity;
   }
 
   static createdRacesInstances(): number {
@@ -28,4 +26,4 @@ abstract class Race {
 
 export default Race;
 
-// baseado na ala do Gus no course
+// baseado na aula do Gus no course
