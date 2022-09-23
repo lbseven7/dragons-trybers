@@ -3,5 +3,5 @@ export default interface Energy {
   type_: EnergyType;
   amount: number;
 }
-// Arlisson
+// Arlisson 03
 export type EnergyType = 'mana' | 'stamina';
