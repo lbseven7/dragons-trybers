@@ -1,5 +1,3 @@
-// import EnergyType from '../Energy';
-
 abstract class Archetype {
   private _name: string;
   private _special: number;
