@@ -1,5 +1,7 @@
+import Fighter from './Fighter';
+
 // criar a interface lutador simples
-export default interface SimpleFighter {
+export default interface SimpleFighter extends Fighter { // coloquei extends
   lifePoints: number;
   strength: number;
 

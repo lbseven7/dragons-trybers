@@ -1,7 +1,7 @@
 import Battle from './Battle';
 import Fighter from '../Fighter';
 
-// criar a classe PVP
+// criar a classe PVP requisito 10
 export default class PVP extends Battle {
   constructor(player: Fighter, private opponent: Fighter) {
     super(player);
